@@ -1,0 +1,139 @@
+/* BookPackage.css */
+
+/* Center the entire page content */
+.book-package-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Booking card styling */
+  .booking-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .booking-card h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .booking-card h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .booking-card p {
+    color: #666;
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  /* Fancy Confirm Booking Button */
+  .confirm-booking-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirm-booking-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .confirm-booking-button:focus {
+    outline: none;
+  }
+  
+  /* Enhanced Popup message styling with Green Background */
+  .booking-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: #4CAF50; /* Green Background */
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2em;
+    animation: popupAnimation 1s ease-out forwards;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup-message {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  
+  /* Gratitude Message Styling */
+  .gratitude-message {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  
+  .gratitude-message span {
+    color: #2ce0ad; /* Bluish-Green Color */
+    font-size: 1.2em;
+  }
+  
+  /* Custom OK Button Styling */
+  .popup-close-button {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .popup-close-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .popup-close-button:focus {
+    outline: none;
+  }
+  
+  /* Popup animation */
+  @keyframes popupAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-10px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  

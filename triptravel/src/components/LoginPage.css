@@ -1,0 +1,17 @@
+/* src/components/LoginPage.css */
+.card {
+    border-radius: 15px;
+  }
+  
+  h4 {
+    font-weight: 500;
+  }
+  
+  button {
+    border-radius: 8px;
+  }
+  
+  input {
+    border-radius: 5px;
+  }
+  

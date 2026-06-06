@@ -1,0 +1,140 @@
+/* Loading screen styles */
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    position: relative; /* For positioning of progress bar */
+  }
+  
+  .loading-animation {
+    text-align: center;
+    position: relative; /* For absolute positioning of jeep */
+  }
+  
+  .progress-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative; /* For positioning of jeep */
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50; /* Color of the progress bar */
+    border-radius: 10px;
+    transition: width 1s ease; /* Smooth transition */
+  }
+  
+  .jeep {
+    width: 80px; /* Width of the jeep */
+    height: 50px; /* Height of the jeep */
+    background-image: url('https://img.freepik.com/premium-vector/safari-jeep-icon-outline-safari-jeep-vector-icon-web-design-isolated-white-background-color-flat_96318-89329.jpg'); /* Jeep icon */
+    background-size: cover;
+    position: absolute;
+    bottom: 20px; /* Position over the progress bar */
+    transition: left 1s linear; /* Smooth transition */
+  }
+  
+  .facts-container {
+    margin-top: 10px; /* Space below the jeep */
+  }
+  
+  .loading-fact {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  /* Container for the destinations */
+  .destinations {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Title styling */
+  .destinations-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  /* Flexbox layout for alternating destination sections */
+  .destination-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-section.left {
+    flex-direction: row;
+  }
+  
+  .destination-section.right {
+    flex-direction: row-reverse;
+  }
+  
+  /* Hover effect for destination cards */
+  .destination-section:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Image styling */
+  .destination-image {
+    width: 50%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Destination info styling */
+  .destination-info {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+  .destination-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .destination-details {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .destination-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .destination-image {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .destination-info {
+      padding: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  

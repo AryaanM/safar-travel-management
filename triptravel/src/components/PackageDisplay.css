@@ -1,0 +1,97 @@
+/* src/components/PackageDisplay.css */
+.package-display-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .package-display-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .location-selection {
+    margin-bottom: 20px;
+  }
+  
+  .location-selection select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .location-selection select:focus {
+    border-color: #4caf50;
+    transform: scale(1.05);
+  }
+  
+  .package-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .package-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .package-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .package-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .book-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .booking-summary {
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .book-now-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    text-decoration: none;
+  }
+  
+  .book-now-button:hover {
+    background-color: #388e3c;
+  }
+  
+  

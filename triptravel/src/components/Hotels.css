@@ -1,0 +1,55 @@
+.hotels-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background */
+}
+
+.hotels-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333; /* Dark text */
+}
+
+.hotels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.hotel-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.hotel-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures the image covers the container */
+  border-bottom: 1px solid #ddd;
+}
+
+.hotel-card h2 {
+  font-size: 1.5rem;
+  color: #ff5722;
+  margin: 15px 0;
+}
+
+.hotel-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.hotel-card strong {
+  color: #ff5722;
+}
+
+
+  
