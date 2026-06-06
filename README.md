@@ -6,9 +6,9 @@ SAFAR is a comprehensive, full-stack travel management platform designed to prov
 
 | 🏠 Homepage | 🗺️ Destinations Exploration |
 | :---: | :---: |
-| ![Homepage](./screenshots/homepage.jpg) | ![Destinations Page](./screenshots/destinations.jpg) |
+| ![Homepage](./screenshots/homepage.png) | ![Destinations Page](./screenshots/destinations.png) |
 | **🏨 Live Hotel Database** | **📦 Package Selection & State** |
-| ![Hotels Database](./screenshots/hotels.jpg) | ![Package Booking](./screenshots/package-selection.png) |
+| ![Hotels Database](./screenshots/hotels.png) | ![Package Booking](./screenshots/package-selection.png) |
 | **🔐 User Registration** | **👤 User Profile** |
 | ![User Registration](./screenshots/register.png) | ![User Profile](./screenshots/profile.png) |
 
