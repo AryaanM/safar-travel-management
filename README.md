@@ -117,4 +117,4 @@ Open a new terminal, navigate to the frontend directory, install dependencies, a
 The application will open automatically at `http://localhost:3000`.
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE) - see the LICENSE file for details.
